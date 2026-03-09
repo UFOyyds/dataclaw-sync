@@ -1,0 +1,7 @@
+.venv/
+exports/
+.DS_Store
+.claude/
+SESSION_SUMMARY.md
+__pycache__/
+*.pyc
