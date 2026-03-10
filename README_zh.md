@@ -1,6 +1,7 @@
 # DataClaw Sync
 
 [English](README.md) | [中文](README_zh.md)
+<img width="2696" height="1138" alt="Gemini_Generated_Image_iiawauiiawauiiaw" src="https://github.com/user-attachments/assets/18ec450c-9874-400f-89a8-f23fe533aa8b" />
 
 将 AI Agent 对话记录增量导出并转换为 Obsidian 笔记。
 
