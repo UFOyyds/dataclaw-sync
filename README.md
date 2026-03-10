@@ -43,7 +43,11 @@ There is no unified Skill directory standard across AI coding agents. Each tool 
 |-------|----------------|
 | Claude Code | `~/.claude/skills/dataclaw-sync/` |
 | Codex | `~/.agents/skills/dataclaw-sync/` |
+| OpenCode | `~/.config/opencode/skills/dataclaw-sync/` |
+| Gemini CLI | `~/.gemini/skills/dataclaw-sync/` |
 | OpenClaw | `~/.openclaw/skills/dataclaw-sync/` |
+
+> **Note**: OpenCode and Gemini CLI also support `~/.agents/skills/` — if you've already set up the Codex path, they will discover it automatically without extra configuration.
 
 Copy `SKILL.md` and `scripts/` into the corresponding directory. Once installed, trigger with `/dataclaw-sync`.
 
@@ -57,6 +61,8 @@ Copy `SKILL.md` and `scripts/` into the corresponding directory. Once installed,
 > # Symlink to each agent
 > ln -s ~/agent-skills/dataclaw-sync ~/.claude/skills/dataclaw-sync
 > ln -s ~/agent-skills/dataclaw-sync ~/.agents/skills/dataclaw-sync
+> ln -s ~/agent-skills/dataclaw-sync ~/.config/opencode/skills/dataclaw-sync
+> ln -s ~/agent-skills/dataclaw-sync ~/.gemini/skills/dataclaw-sync
 > ln -s ~/agent-skills/dataclaw-sync ~/.openclaw/skills/dataclaw-sync
 > ```
 
