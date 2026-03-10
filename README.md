@@ -1,6 +1,7 @@
 # DataClaw Sync
 
 [English](README.md) | [中文](README_zh.md)
+<img width="2696" height="1138" alt="Gemini_Generated_Image_iiawauiiawauiiaw" src="https://github.com/user-attachments/assets/683bb99e-ca61-4cb4-a567-a0743dadf47e" />
 
 Incrementally export AI agent conversations and convert them into Obsidian notes.
 
